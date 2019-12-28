@@ -30,3 +30,6 @@ Both hour.csv and day.csv have the following fields, except hr which is not avai
 - casual: count of casual users
 - registered: count of registered users
 - cnt: count of total rental bikes including both casual and registered
+
+
+Given the end-to-end metrics from Bike Sharing data-set, such as weather conditions, and holiday schedule, the task was to perform Exploratory Data Analysis (EDA) and build a prediction model for the hourly utilization count of this data. 
