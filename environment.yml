@@ -1,0 +1,14 @@
+name: ebike
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+- python=3.7.3
+- matplotlib
+- numpy
+- jupyter
+- pandas
+- scikit-learn
+- PTable
+- seaborn
+
