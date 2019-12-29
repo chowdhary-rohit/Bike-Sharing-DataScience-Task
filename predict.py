@@ -39,11 +39,11 @@ class RandomForest():
     
     '''
 
-    def __init__(self, data_path='/Users/rohitchowdhary/Desktop/e-bike/rawdata/hour.csv'):
+    def __init__(self, data_path='/rawdata/hour.csv'):
         '''Initialize the random forest model.
         
         Keyword Arguments:
-            data_path {str} -- Path to the Bike Sharing Dataset. (default: {'C:/Users/DE107774/Desktop/Ketna/Other/BikeProblemSet/Project/rawdata/hour.csv'})            
+            data_path {str} -- Path to the Bike Sharing Dataset. (default: {'/rawdata/hour.csv'})            
         '''
         
         # Make results reproducible
