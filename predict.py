@@ -35,7 +35,7 @@ import pickle
 sns.set(color_codes=True)
 
 class RandomForest():
-    ''' Random forest data model wrapper to provide addtional methods for the Bike Sharing Dataset.
+    ''' Random forest data model wrapper to provide additional methods for the Bike Sharing Dataset.
     
     '''
 
@@ -136,7 +136,7 @@ class RandomForest():
         self.model.fit(self.X_train, self.y_train)
     
     def test(self):
-        """ EValuate the performance of Random Forest on the test data set.
+        """ Evaluate the performance of Random Forest on the test data set.
         
         Returns:
             [type] -- [dictionary with the test results]
